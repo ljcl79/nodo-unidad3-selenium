@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","8191","deberia mostrar productos del tipo laptop en la salida","Búsqueda de productos en Mercado Libre","Wed Jan 21 20:56:04 GMT-03:00 2026","passed","Wed Jan 21 20:56:12 GMT-03:00 2026","","","",""
+"","8256","deberia mostrar productos tipo laptop dell","Búsqueda de productos en Mercado Libre","Wed Jan 21 20:56:12 GMT-03:00 2026","passed","Wed Jan 21 20:56:20 GMT-03:00 2026","","","",""

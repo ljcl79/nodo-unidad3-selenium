@@ -1,0 +1,24 @@
+1. Instalar allure
+npm install  allure
+
+2. Validar versión 
+npx allure --version  
+
+3. Instalar el conector de WebDriver Allure 
+npm install @wdio/allure-reporter --save-dev
+
+4. Actualizar wl wdio.conf.js para agregar allure
+//https://webdriver.io/docs/allure-reporter/
+    ['allure', {
+            outputDir: 'allure-results',
+            disableWebdriverStepsReporting: true,
+            disableWebdriverScreenshotsReporting: true,
+            addConsoleLogs: true, // Attach console logs to reports
+            reportedEnvironmentVars: {
+                'NODE_VERSION': process.version,
+                'BROWSER': 'chrome'
+            }
+        }]
+
+5. Generar el reporter y abrirlo
+allure generate ./allure-results && allure open
